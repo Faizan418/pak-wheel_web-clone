@@ -1,18 +1,19 @@
 ._containar{
     background: rgb(2, 2, 165);
+    border: 1px solid black;
 }
 .main_containar{
     height: 84vh;
     /* background-image: url(../../public/images/unknown.png); */
     background-image: url(/images/unknown.png);
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .nav_bar{
     height: 26%;
     /* border: 1px solid rgb(255, 0, 0); */
 }
 .div_one{
-    padding: 6px 50px;
+    padding: 5px 50px;
 }
 .first_info{
     border-bottom: 1px solid rgba(197, 195, 192, 0.493);
@@ -32,29 +33,35 @@
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 .logo_div{
     /* border: 1px solid rgb(148, 44, 44); */
 
 }
 .div_two{
-    padding: 5px 50px;
+    padding: 10px 50px;
+    /* border: 1px solid white; */
 }
 .menu_div{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 15px;
+
     color: white;
 }
 .menu_li{
     padding: 13px 10px;
+    /* background-color: aqua; */
     /* border-radius: 4px; */
 
 }
 .menu_li:hover{
-    /* background-color: #ffffffdc; */
+    background-color: #ffffffdc;
     color: rgb(255, 0, 0);
     cursor: pointer;
     transition: background 0.4s ;
@@ -87,11 +94,11 @@
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 98px;
+        top: 110px;
         right: 0px;
         width: 100%;
         background-color: #00000036;
-        border: 1px solid rgb(190, 30, 30);
+        /* border: 1px solid rgb(190, 30, 30); */
         backdrop-filter: blur(10px);
         padding: 20px 45px;
         /* position: fixed; */
@@ -132,6 +139,13 @@
         padding: 5px 10px;
     }
     .menu_div{
-        padding: 20px 10px;
+        padding: 20px 6px;
+        top: 120px;
     }
+    .first_info{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
 }

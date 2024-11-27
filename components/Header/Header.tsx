@@ -25,16 +25,15 @@ const Header = () => {
           <div className={styles.div_two}>
             <div className={styles.second_info}>
                 <div className={styles.logo_div}>
-                    <Image src={'/images/logo.svg'} alt="logo" width={160} height={160} />
+                    <Image src={'/images/logo.svg'} alt="logo" width={160} height={170} />
                 </div>
-                {/* <ul className={styles.menu_div}> */}
                     <ul className={`${styles.menu_div} ${menuVisible ? styles.show_menu : ""}`}>
-                    <li className={styles.menu_li}>Used Car<span className="font-light hover:text-gray-950">▾</span> </li>
                     <li className={styles.menu_li}>New Car<span className="font-light hover:text-gray-950">▾</span> </li>
+                    <li className={styles.menu_li}>Used Car<span className="font-light hover:text-gray-950">▾</span> </li>
                     <li className={styles.menu_li}>Bikes<span className="font-light hover:text-gray-950">▾</span> </li>
                     <li className={styles.menu_li}>Auto Store<span className="font-light hover:text-gray-950">▾</span> </li>
-                    <li className={styles.menu_li}>Video<span className="font-light hover:text-gray-950">▾</span> </li>
-                    <li className={styles.menu_li}>Forums<span className="font-light hover:text-gray-950">▾</span> </li>
+                    <li className={styles.menu_li}>Video</li>
+                    <li className={styles.menu_li}>Forums</li>
                     <li className={styles.menu_li}>Blog</li>
                     <li className={styles.menu_li}>More<span className="font-light hover:text-amber-400">▾</span> </li>
                 </ul>

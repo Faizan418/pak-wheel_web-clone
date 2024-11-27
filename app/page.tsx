@@ -2,7 +2,7 @@ import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-slate-50">
       <Header/> 
     </div>
   );
