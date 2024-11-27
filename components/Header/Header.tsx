@@ -1,6 +1,5 @@
 'use client'
 import styles from "./Header.module.css";
-import { CiSearch } from "react-icons/ci";
 import Image from "next/image";
 import { useState } from "react";
 
