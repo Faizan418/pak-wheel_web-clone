@@ -1,5 +1,6 @@
 'use client'
 import styles from "./Header.module.css";
+import { CiSearch } from "react-icons/ci";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -35,14 +36,49 @@ const Header = () => {
                     <li className={styles.menu_li}>Video</li>
                     <li className={styles.menu_li}>Forums</li>
                     <li className={styles.menu_li}>Blog</li>
-                    <li className={styles.menu_li}>More<span className="font-light hover:text-amber-400">▾</span> </li>
+                    <li className={styles.menu_li}>More<span className="font-light hover:text-gray-950">▾</span> </li>
                 </ul>
                 <button className={styles.hamburger}onClick={toggleMenu} aria-label="Toggle menu" aria-expanded={menuVisible}>&#9776;</button>
             </div>
           </div>
         </nav>
 
-        <div className={styles.main}>Find Used Cars in Pakistan</div>
+        <div className={styles.main_contant}>
+
+            <div className={styles.main}>
+                <h1 className={styles.heading}>Find Used Cars in Pakistan</h1>
+                <p className={styles.peraa}>With thousends of cars, we have just the right one for you</p>
+                
+                <div className={styles.selector_div}>
+
+                <div className={styles.filter_div}>
+                    <input className={styles.inp} type="text" placeholder="Search here..." />
+                    <select className={styles.filter_select}>
+                        <option value="all">All Cities</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Rawalpindi">Rawalpindi</option>
+                        <option value="Peshawar">Peshawar</option>
+                    </select>
+                </div>
+                <div className={styles.filter_div}>
+                    <select className={styles.filter_select}>
+                        <option value="all">price Range</option>
+                        <option value="price_low_to_high">Price (Low to High)</option>
+                        <option value="price_high_to_low">Price (High to Low)</option>
+                        <option value="newest_first">Newest First</option>
+                        <option value="oldest_first">Oldest First</option>
+                    </select>
+                    <span className={styles.search_icon}>🔍</span>
+                    {/* <button className={styles.filter_btn}>Filter</button> */}
+                </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
 
       </div>
     </div>
