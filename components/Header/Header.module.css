@@ -1,5 +1,5 @@
 ._containar{
-    background: rgb(3, 3, 180);
+    background: rgb(2, 2, 165);
 }
 .main_containar{
     height: 84vh;
@@ -8,8 +8,8 @@
     border: 1px solid white;
 }
 .nav_bar{
-    height: 30%;
-    border: 1px solid rgb(255, 0, 0);
+    height: 26%;
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 .div_one{
     padding: 6px 50px;
@@ -28,13 +28,13 @@
     cursor: pointer;
 }
 .second_info{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
 }
 .logo_div{
-    border: 1px solid rgb(148, 44, 44);
+    /* border: 1px solid rgb(148, 44, 44); */
 
 }
 .div_two{
@@ -54,7 +54,7 @@
 
 }
 .menu_li:hover{
-    background-color: #ffffffdc;
+    /* background-color: #ffffffdc; */
     color: rgb(255, 0, 0);
     cursor: pointer;
     transition: background 0.4s ;
@@ -62,8 +62,8 @@
 }
 
 .main{
-    height: 70%;
-    border: 1px solid white;
+    height: 75%;
+    /* border: 1px solid white; */
 }
 
 .hamburger {
