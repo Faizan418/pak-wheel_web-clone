@@ -123,10 +123,10 @@ const Footer = () => {
 
         <div className={styles.box}>
           <h2 className={styles.headings2}>Cars by Province</h2>
-          <p className={styles.peras}>Cars in Punjab</p>
           <p className={styles.peras}>Cars in Sindh</p>
-          <p className={styles.peras}>Cars in KPK</p>
+          <p className={styles.peras}>Cars in Punjab</p>
           <p className={styles.peras}>Cars in Balochistan</p>
+          <p className={styles.peras}>Cars in KPK</p>
           <p className={styles.peras}>Cars in Azad Kashmir</p>
           <p className={styles.peras}>Cars in Federally Administered</p>
           <p className={styles.peras}>Tribal Areas</p>

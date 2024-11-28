@@ -60,10 +60,11 @@
     cursor: pointer;
 }
 .peras{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
     color: #999999;
     cursor: pointer;
+    padding: 1px;
     /* margin-bottom: 10px; */
 }
 .peras:hover{
@@ -153,6 +154,8 @@
     .peras{
         font-size: 15px;
         font-weight: bold;
+        /* padding: 5px; */
+    
 
     }
     .box{
