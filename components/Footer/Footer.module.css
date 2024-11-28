@@ -35,6 +35,7 @@
     font-size: 11px;
     font-weight: bold;
     color: #999999;
+    /* padding-bottom: 0px; */
 }
 
 .box{
@@ -68,7 +69,7 @@
     /* margin-bottom: 10px; */
 }
 .peras:hover{
-    color: #756b0a;
+    color: #d8c946;
     /* text-decoration: underline; */
     transition: 0.2s;
 }
@@ -108,7 +109,7 @@
     margin-top: 5px;
 }
 .div_icon{
-    padding: 3px;
+    padding: 7px;
     border-radius: 50%;
     background-color: floralwhite;
     /* border: 1px solid gold; */
@@ -118,7 +119,7 @@
 }
 .div_icon:hover{
     background-color: gold;
-    transform: scale(1.3);
+    transform: scale(1.35);
 }
 .div_icon:active{
     background-color: red;

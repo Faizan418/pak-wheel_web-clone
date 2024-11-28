@@ -11,7 +11,7 @@ const Section1 = () => {
             <div className={styles._upper_div}>
 
                 <fieldset className={styles.fieldset_div}>
-                    <legend className={styles.lagend}>\ Sell Your Car on PakWheels and Get the Best Price  /</legend>
+                    <legend className={styles.lagend}><span className={styles.pipe}>\</span> Sell Your Car on PakWheels and Get the Best Price  <span className={styles.pipe}>/</span></legend>
 
                     <div className={styles.first}>
                         <h1 className={styles._headings_h1}>Post your Ad on PakWheels</h1>

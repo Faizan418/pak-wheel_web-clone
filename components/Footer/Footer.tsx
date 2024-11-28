@@ -121,7 +121,7 @@ const Footer = () => {
           <p className={styles.peras}>Gold Cars</p>
         </div>
 
-        <div className={styles.box}>
+        <div className={styles.box_last}>
           <h2 className={styles.headings2}>Cars by Province</h2>
           <p className={styles.peras}>Cars in Sindh</p>
           <p className={styles.peras}>Cars in Punjab</p>
@@ -132,7 +132,7 @@ const Footer = () => {
           <p className={styles.peras}>Tribal Areas</p>
         </div>
 
-        <div className={styles.box_last}>
+        <div className={styles.box}>
           <h2 className={styles.headings2}>Download Mobile Apps</h2>
           <p className={styles.peras}>0</p>
           <p className={styles.peras}>0</p>
@@ -144,6 +144,7 @@ const Footer = () => {
           <p>Copyright © 2003 - 2024 PakWheels (Pvt) Ltd. - All Rights Reserved.</p>
           <p>Terms of Service |  Privacy Policy</p>
           <p>Reproduction of material from any PakWheels.com pages without permission is strictly prohibited.</p>
+          <p>Now Recreating by Muhammad Faizan.</p>
         </div>
 
 

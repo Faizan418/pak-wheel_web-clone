@@ -159,6 +159,7 @@
   .filter_btn:hover{
     border: 1px solid rgb(180, 179, 179);
     color: rgb(180, 179, 179);
+    transform: scale(1.05);
   }
 
 
