@@ -1,6 +1,7 @@
 'use client'
 import styles from "./Header.module.css";
 import Image from "next/image";
+import { IoMdSearch } from "react-icons/io";
 import { useState } from "react";
 
 const Header = () => {
@@ -71,8 +72,8 @@ const Header = () => {
                         <option value="newest_first">Newest First</option>
                         <option value="oldest_first">Oldest First</option>
                     </select>
-                    <span className={styles.search_icon}>🔍</span>
                 </div>
+                    <span className={styles.search_icon}><IoMdSearch  className="text-2xl" /></span>
 
                 </div>
                     <div className={styles.last_btn}>

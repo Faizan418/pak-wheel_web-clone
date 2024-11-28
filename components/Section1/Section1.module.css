@@ -10,11 +10,12 @@
 }
 
 .fieldset_div{
-    border: 1px solid rgb(116, 113, 113);
+    border: 1px solid rgb(196, 196, 196);
     padding: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
+    border-radius: 8px;
     
 }
 .fieldset_div_center{
