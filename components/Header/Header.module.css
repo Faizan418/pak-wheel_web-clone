@@ -1,10 +1,17 @@
 ._containar{
-    background: rgb(3, 3, 150);
+    /* background: rgb(43, 43, 218); */
+    background-color: #2256cf;
     /* border: 1px solid black; */
+    
 }
 .main_containar{
-    height: 84vh;
+    
     background-image: url(/images/unknown.png);
+    /* height: 84vh; */
+
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: auto; */
     /* border: 1px solid rgb(0, 212, 149); */
 }
 .nav_bar{
@@ -71,6 +78,7 @@
 }
 .main{
     /* border: 1px solid white; */
+    margin-top: 50px;
     text-align: center;
     color: white;
 }
@@ -85,25 +93,24 @@
 }
 .inp{
     height: 50px;
-    width: 200px;
+    width: 250px;
     padding: 5px;
     min-width: 100px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     color: #2e2c2c;
     outline: none;
-    
 }
-
-
 .selector_div{
     display: flex;
     text-align: center;
     /* border: 1px solid black; */
+    /* padding: 10px; */
+    align-content: center;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
+    /* margin-top: 20px; */
 }
 .filter_select{
     height: 50px;
@@ -114,7 +121,7 @@
     font-weight: bold;
     font-size: small;
     cursor: pointer;
-
+    outline: none;
 }
 .search_icon{
     color: rgb(255, 255, 255);
@@ -127,8 +134,6 @@
     position: relative;
     top: 0.8px;
 }
-
-
 .hamburger {
     display: none;
     font-size: 30px;
@@ -137,6 +142,23 @@
     border: none;
     color: rgb(255, 255, 255);
   }
+  .last_btn{
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .filter_btn{
+    color: white;
+    padding: 4px 22px;
+    border: 1px solid white;
+    font-size: small;
+  }
+  .filter_btn:hover{
+    border: 1px solid rgb(180, 179, 179);
+    color: rgb(180, 179, 179);
+  }
+
 
 
 @media(max-width: 1115px){
@@ -173,6 +195,9 @@
     
       .hamburger {
         display: block;
+      }
+      .search_icon{
+        padding: 16.3px 15px;
       }
     
 }
@@ -242,11 +267,22 @@
         display: none;
     }
     .inp{
-        width: 180px;
+        width: 250px;
         height: 40px;
     }
     .search_icon{
-        padding: 12px 15px;
+        padding: 11.5px 15px;
     }
     
+}
+@media(max-width: 365px){
+    .inp{
+        width: 230px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .peraa{
+        font-size: 10px;
+    }
 }

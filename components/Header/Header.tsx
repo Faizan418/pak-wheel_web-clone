@@ -11,8 +11,10 @@ const Header = () => {
   };
 
   return (
+  <div className="bg-slate-100">
     <div className={styles._containar}>
       <div className={styles.main_containar}>
+
 
         <nav className={styles.nav_bar}>
           <div className={styles.div_one}>
@@ -51,8 +53,10 @@ const Header = () => {
                 <div className={styles.selector_div}>
 
                 <div className={styles.filter_div}>
-                    <input className={styles.inp} type="text" placeholder="Search here..." />
-                    <select className={styles.filter_select}>
+                    <input className={styles.inp} type="text" placeholder="Car Make or Model" />
+                </div>
+                <div className={styles.filter_div}>
+                <select className={styles.filter_select}>
                         <option value="all">All Cities</option>
                         <option value="Karachi">Karachi</option>
                         <option value="Lahore">Lahore</option>
@@ -60,8 +64,6 @@ const Header = () => {
                         <option value="Rawalpindi">Rawalpindi</option>
                         <option value="Peshawar">Peshawar</option>
                     </select>
-                </div>
-                <div className={styles.filter_div}>
                     <select className={styles.filter_select}>
                         <option value="all">price Range</option>
                         <option value="price_low_to_high">Price (Low to High)</option>
@@ -70,10 +72,12 @@ const Header = () => {
                         <option value="oldest_first">Oldest First</option>
                     </select>
                     <span className={styles.search_icon}>🔍</span>
-                    {/* <button className={styles.filter_btn}>Filter</button> */}
                 </div>
 
                 </div>
+                    <div className={styles.last_btn}>
+                        <button className={styles.filter_btn}>Advanced Filter</button>
+                    </div>
                 
             </div>
             
@@ -81,6 +85,7 @@ const Header = () => {
 
       </div>
     </div>
+  </div>
   );
 };
 

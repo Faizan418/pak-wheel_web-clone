@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Footer.module.css'
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -74,10 +75,10 @@ const Footer = () => {
               </div>
               <h3 className='mt-3 text-slate-100 text-md font-bold flex justify-center'>Follow Us</h3>
               <div className={styles.main_icon_div}>
-                  <div className={styles.div_icon}><FaTwitter /></div>
-                  <div className={styles.div_icon}><FaWhatsapp /></div>
-                  <div className={styles.div_icon}><FaInstagram /></div>
-                  <div className={styles.div_icon}><FaFacebook /></div>
+                  <div className={styles.div_icon}><Link href={'https://x.com/muhammadf4060'} target='_blank'><FaTwitter /></Link></div>
+                  <div className={styles.div_icon}><Link href={'https://wa.me/+923406044359'} target='_blank'><FaWhatsapp /></Link></div>
+                  <div className={styles.div_icon}><Link href={'https://www.instagram.com/fazii.963/'} target='_blank'><FaInstagram /></Link></div>
+                  <div className={styles.div_icon}><Link href={'https://web.facebook.com/faizan.soomro.963'} target='_blank'><FaFacebook /></Link></div>
               </div>
         </div>
         </div>
