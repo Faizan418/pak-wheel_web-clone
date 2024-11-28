@@ -1,5 +1,5 @@
 ._main_containar{
-    height: 110vh;
+    height: 100%;
     border: 1px solid black;
     padding: 5px 50px;
 }
@@ -151,6 +151,10 @@
     .first, .second, ._perass{
         justify-content: left;
         text-align: left;
+    }
+    ._lower_div{
+        flex-direction: column;
+        padding: 10px;
     }
    
 }
