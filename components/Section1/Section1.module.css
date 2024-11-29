@@ -40,10 +40,7 @@
 .second {
   width: 50%;
 }
-.first:hover,
-.second:hover {
-  transform: scale(1.05);
-}
+
 .center {
   display: flex;
   align-items: center;
@@ -58,6 +55,7 @@
   font-weight: bold;
   color: #233d7b;
   margin-bottom: 25px;
+  margin-left: 10px;
 }
 ._perass_div {
   padding: 10px;
@@ -167,9 +165,9 @@
   margin-top: 10px;
   cursor: pointer;
 }
-.one:hover {
-  transform: scale(1.05);
+/* .one:hover {
+  transform: scale(1.005);
 }
 .two:hover {
-  transform: scale(1.05);
-}
+  transform: scale(1.005);
+} */

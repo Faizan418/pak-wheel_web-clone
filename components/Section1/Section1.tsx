@@ -64,7 +64,7 @@ const Section1 = () => {
         </div>
         <div className={styles._lower_div}>
           <div className={styles.one}>
-            <Image src={"/images/one.jpg"} alt="img" height={500} width={500} />
+            <Image src={"/images/one.jpg"} alt="img" height={500} width={460} />
           </div>
           <div className={styles.two}>
             <Image src={"/images/two.png"} alt="img" height={500} width={500} />

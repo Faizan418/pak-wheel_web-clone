@@ -108,6 +108,9 @@
 .div_icon:active {
   background-color: red;
 }
+.last_stors_img:hover{
+  transform: scale(1.10);
+}
 
 @media (max-width: 1116px) {
   .containar {

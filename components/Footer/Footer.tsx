@@ -147,7 +147,7 @@ const Footer = () => {
             <p className={styles.peras}>Gold Cars</p>
           </div>
 
-          <div className={styles.box_last}>
+          <div className={styles.box}>
             <h2 className={styles.headings2}>Cars by Province</h2>
             <p className={styles.peras}>Cars in Sindh</p>
             <p className={styles.peras}>Cars in Punjab</p>
@@ -156,13 +156,14 @@ const Footer = () => {
             <p className={styles.peras}>Cars in Azad Kashmir</p>
             <p className={styles.peras}>Cars in Federally Administered</p>
             <p className={styles.peras}>Tribal Areas</p>
+            
           </div>
 
-          <div className={styles.box}>
+          <div className={styles.box_last}>
             <h2 className={styles.headings2}>Download Mobile Apps</h2>
-            <p className={styles.peras}><Image src={'/images/playstore.svg'} alt='img' height={100} width={110}/></p>
-            <p className={styles.peras}><Image src={'/images/applestore.svg'} alt='img' height={100} width={110}/></p>
-            <p className={styles.peras}><Image src={'/images/appgellary.svg'} alt='img' height={100} width={110}/></p>
+            <p className={styles.peras}><Image className={styles.last_stors_img} src={'/images/playstore.svg'} alt='img' height={100} width={110}/></p>
+            <p className={styles.peras}><Image className={styles.last_stors_img} src={'/images/applestore.svg'} alt='img' height={100} width={110}/></p>
+            <p className={styles.peras}><Image className={styles.last_stors_img} src={'/images/appgellary.svg'} alt='img' height={100} width={110}/></p>
           </div>
         </div>
         <div className={styles.div_three}>

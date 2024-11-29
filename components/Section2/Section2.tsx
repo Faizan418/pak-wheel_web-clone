@@ -1,84 +1,47 @@
 import styles from './Section2.module.css'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Section2 = () => {
   return (
     <div className={styles._main_containar}>
 
-        <div className={styles.containar}>
-            <h1 className={styles.main_heading}>PakWheels Offerings</h1>
-
-            <div className={styles._main_box}>
-
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_one.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>SELL IT FOR ME</p></div>
-                </div>
-            </Link>
-            
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_two.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>AUCTION SHEET VERIFICATION</p></div>
-                </div>
-            </Link>
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_three.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR INSPECTION</p></div>
-                </div>
-            </Link>
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_four.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>PARTNER WORKSHOP</p></div>
-                </div>
-            </Link>
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_five.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR INSURANCE</p></div>
-                </div>
-            </Link>
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_six.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR FINANCE</p></div>
-                </div>
-            </Link>
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_seven.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR REGISTRATION</p></div>
-                </div>
-            </Link>
-
-            <Link href={'#'}>
-                <div className={styles.main_div}>
-                    <div  className={styles.img_div}><Image src={'/images/img_eight.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>OWNERSHIP TRANSFER</p></div>
-                </div>
-            </Link>
-
-               
-
-
-
-
+        <div className={styles._containar}>
+            <h1 className={styles._main_heading}>Browse Used Cars</h1>
+            <ul className={styles._ul_div}>
+                <li className={styles._li}>Category</li>
+                <li className={styles._li}>City</li>
+                <li className={styles._li}>Make</li>
+                <li className={styles._li}>Model</li>
+                <li className={styles._li}>Budget</li>
+                <li className={styles._li}>Body Type</li>
+            </ul>
+                <hr />
+            <div className={styles._grid}>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>2 Door</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Sport Cars</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>2 Seater</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Modified Cars</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Custom Auction</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>3 Door Car</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Duplicate File</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Urgent</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Duplicate Book Cars</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Army Auction Jeeps</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Amnesty Scheme</h3></div>
+                <div className={styles._card}><Image src={'/images/one.svg'} alt='img' height={80} width={80}/> <h3 className={styles._headingss}>Carry Daba</h3></div>
             </div>
+
         </div>
-      
     </div>
   )
 }
 
 export default Section2
+
+
+
+
+
+
+
