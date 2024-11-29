@@ -1,207 +1,175 @@
-._main_containar{
-    height: 100%;
-    /* border: 1px solid black; */
-    padding: 5px 50px;
+._main_containar {
+  height: 100%;
+  padding: 5px 50px;
 }
-._containar{
-    /* border: 1px solid black; */
-    height: 100%;
-    padding: 50px 120px;
+._containar {
+  height: 100%;
+  padding: 50px 60px;
 }
-._upper_div{
-    margin-bottom: 40px;
-    /* border: 1px solid black; */
+._upper_div {
+  margin-bottom: 40px;
 }
 
-.fieldset_div{
-    border: 1px solid rgb(196, 196, 196);
-    padding: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px;
-    cursor: pointer;
-    
+.fieldset_div {
+  border: 1px solid rgb(196, 196, 196);
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
 }
-.fieldset_div_center{
-    height: 100%;
-    /* border-bottom: 1px solid rgb(116, 113, 113); */
-    /* flex-direction: column;
-    display: flex; */
-    
+.fieldset_div_center {
+  height: 100%;
 }
-.lagend_center{
-    display: flex;
+.lagend_center {
+  display: flex;
+  flex-direction: column;
+}
+.lagend {
+  color: #434343;
+  font-size: 22px;
+  font-weight: bold;
+}
+.pipe {
+  color: gainsboro;
+}
+.first {
+  width: 50%;
+}
+.second {
+  width: 50%;
+}
+.first:hover,
+.second:hover {
+  transform: scale(1.05);
+}
+.center {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+  color: #434343;
+  text-decoration: underline;
+}
+._headings_h1 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #233d7b;
+  margin-bottom: 25px;
+}
+._perass_div {
+  padding: 10px;
+  text-align: center;
+}
+._perass {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.btn1,
+.btn2 {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #233d7b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.btn1 {
+  background-color: #b73439;
+}
+.btn2 {
+  background-color: #233d7b;
+}
+.btn1:hover {
+  background-color: #92181c;
+  transform: scale(1.05);
+}
+.btn2:hover {
+  background-color: #182e61;
+  transform: scale(1.05);
+}
+
+@media (max-width: 1120px) {
+  ._containar {
+    padding: 40px 50px;
+  }
+}
+@media (max-width: 1060px) {
+  .fieldset_div {
+    padding: 20px 5px;
+  }
+}
+@media (max-width: 1015px) {
+  ._containar {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 930px) {
+  .fieldset_div {
     flex-direction: column;
-}
-.lagend{
-    color: #434343;
-    font-size: 22px;
-    font-weight: bold;
-}
-.pipe{
-    color: gainsboro;
-
-}
-.first{
-    /* border: 1px solid black; */
-    width: 50%;
-    
-    /* align-items: center; */
-
-}
-.second{
-    /* border: 1px solid black; */
-    width: 50%;    
-    
-
-}
-.first:hover, .second:hover {
-    transform: scale(1.05);
-}
-.center{
-    /* border: 1px solid black; */
-    display: flex;
+    justify-content: center;
     align-items: center;
+  }
+  .first,
+  .second {
+    width: 100%;
+  }
+  ._main_containar {
+    height: 100%;
+  }
+}
+@media (max-width: 700px) {
+  ._main_containar {
+    padding: 30px;
+  }
+  .lagend {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  ._headings_h1 {
+    font-size: 16px;
+  }
+  ._perass {
+    font-size: 13px;
+  }
+  .lagend {
+    font-size: 14px;
+  }
+  .first,
+  .second,
+  ._perass {
+    justify-content: left;
+    text-align: left;
+  }
+  ._lower_div {
+    flex-direction: column;
     padding: 10px;
-    font-size: larger;
-    font-weight: bold;
-    color: #434343;
-    
-    text-decoration: underline;
+  }
 }
-._headings_h1{
-    font-size: 19px;
-    font-weight: bold;
-    color: #233d7b;
-    margin-bottom: 25px;
-}
-._perass_div{
-    
-    /* border: 1px solid black; */
+@media (max-width: 500px) {
+  ._main_containar {
     padding: 10px;
-    text-align: center;
-}
-._perass{
-    /* text-align: 14px; */
-    font-weight: bold;
-    /* color: #233d7b; */
-    font-size: 16px;
-    margin-bottom: 10px; 
-    /* display: flex; */
+  }
+  .pipe {
+    display: none;
+  }
 }
 
-.btn1, .btn2{
-    margin-top: 10px;
-    padding: 10px 30px;
-    background-color: #233d7b;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
+._lower_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  cursor: pointer;
 }
-.btn1{
-    background-color: #b73439;
+.one:hover {
+  transform: scale(1.05);
 }
-.btn2{
-    background-color: #233d7b;
-}
-
-.btn1:hover{
-    background-color: #92181c;
-    transform: scale(1.05);
-    
-}
-.btn2:hover{
-    background-color: #182e61;
-    transform: scale(1.05);
-    
-}
-
-
-
-@media(max-width: 1120px){
-    ._containar{
-        padding: 40px 50px;
-    }
-}
-@media(max-width: 1060px){
-    .fieldset_div{
-        padding: 20px 5px;
-    }
-}
-@media(max-width: 1015px){
-    ._containar{
-        padding: 20px 10px;
-    }
-}
-@media(max-width: 930px){
-    .fieldset_div{
-        flex-direction: column;
-        /* width: 100%; */
-        justify-content: center;
-        align-items: center;
-    }
-    .first, .second{
-        width: 100%;
-    }
-    ._main_containar{
-        height: 100%;
-    }
-}
-@media(max-width: 700px){
-    ._main_containar{
-        padding: 30px;
-    }
-    .lagend{
-        font-size: 16px;
-    }
-}
-@media(max-width: 600px){
-   ._headings_h1{
-    font-size: 16px;
-    }
-    ._perass{
-        font-size: 13px;
-    }
-    .lagend{
-        font-size: 14px;
-    }
-    .first, .second, ._perass{
-        justify-content: left;
-        text-align: left;
-    }
-    ._lower_div{
-        flex-direction: column;
-        padding: 10px;
-    }
-   
-}
-@media(max-width: 500px){
-    ._main_containar{
-        padding: 10px;
-    }
-    .pipe{
-        display: none;
-    }
-}
-
-
-
-
-._lower_div{
-    /* border: 1px solid rgb(0, 0, 0); */
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    cursor: pointer;    
-}
-.one:hover{
-     transform: scale(1.05);
-
-}
-.two:hover{
-     transform: scale(1.05);
-
+.two:hover {
+  transform: scale(1.05);
 }

@@ -15,7 +15,7 @@ const Section2 = () => {
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_one.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>SELL IT FOR ME</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>SELL IT FOR ME</p></div>
                 </div>
             </Link>
             
@@ -23,49 +23,49 @@ const Section2 = () => {
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_two.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>AUCTION SHEET VERIFICATION</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>AUCTION SHEET VERIFICATION</p></div>
                 </div>
             </Link>
 
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_three.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>CAR INSPECTION</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR INSPECTION</p></div>
                 </div>
             </Link>
 
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_four.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>PARTNER WORKSHOP</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>PARTNER WORKSHOP</p></div>
                 </div>
             </Link>
 
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_five.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>CAR INSURANCE</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR INSURANCE</p></div>
                 </div>
             </Link>
 
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_six.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>CAR FINANCE</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR FINANCE</p></div>
                 </div>
             </Link>
 
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_seven.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>CAR REGISTRATION</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>CAR REGISTRATION</p></div>
                 </div>
             </Link>
 
             <Link href={'#'}>
                 <div className={styles.main_div}>
                     <div  className={styles.img_div}><Image src={'/images/img_eight.png'} alt='one' width={150} height={150}/></div>
-                    <div className={styles.desc_div}><h1>PakWheels</h1><p>OWNERSHIP TRANSFER</p></div>
+                    <div className={styles.desc_div}><h1 className={styles.box_heading_blue}>PakWheels</h1><p className='text-sm'>OWNERSHIP TRANSFER</p></div>
                 </div>
             </Link>
 
