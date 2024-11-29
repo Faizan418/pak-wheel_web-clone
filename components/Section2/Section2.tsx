@@ -1,6 +1,6 @@
 import styles from './Section2.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 const Section2 = () => {
   return (
