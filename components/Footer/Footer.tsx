@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -100,10 +100,10 @@ const Footer = () => {
               </div>
               <div className={styles.div_icon}>
                 <Link
-                  href={"https://web.facebook.com/faizan.soomro.963"}
+                  href={"https://www.linkedin.com/in/muhammad-faizan-2541132b8"}
                   target="_blank"
                 >
-                  <FaFacebook />
+                  <FaLinkedin />
                 </Link>
               </div>
             </div>
