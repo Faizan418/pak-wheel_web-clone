@@ -121,9 +121,9 @@
         text-align: center;
     }
     ._card_img_box{
+        display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
-        width: auto;
     }
 }
