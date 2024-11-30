@@ -120,4 +120,8 @@
     ._card{
         text-align: center;
     }
+    ._card_img_box{
+        text-align: center;
+        justify-content: center;
+    }
 }
