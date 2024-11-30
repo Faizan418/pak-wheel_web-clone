@@ -85,4 +85,10 @@
         grid-template-columns: 1fr;
         gap: 10px;
     }
+    .img_div{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
