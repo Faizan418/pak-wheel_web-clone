@@ -1,4 +1,4 @@
-import styles from './Section10.module.css'
+import styles from './Section9.module.css'
 import Link from "next/link";
 import Image from "next/image";
 

@@ -1,4 +1,4 @@
-import styles from './Section8.module.css'
+import styles from './Section11.module.css'
 import Link from "next/link";
 import Image from "next/image";
 import { MdOutlineStarPurple500 } from "react-icons/md";
