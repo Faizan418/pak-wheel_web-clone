@@ -24,6 +24,9 @@
 .o,
 .t {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 .second_info {
   padding: 5px 0px;

@@ -4,6 +4,8 @@ import Image from "next/image";
 import { IoMdSearch } from "react-icons/io";
 import { useState } from "react";
 import { MdArrowDropDown } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
+import { TbMessageCircle } from "react-icons/tb";
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -19,11 +21,11 @@ const Header = () => {
             <div className={styles.div_one}>
               <div className={styles.first_info}>
                 <div className={styles.o}>
-                  <span>📳</span> Download App via SMS
+                  <span><FaMobileAlt className="text-red-600 text-lg"/></span> Download App via SMS
                 </div>
                 <div className={styles.t}>
                   <span className="text-red-600">اردو</span> | Welcome Muhammad
-                  Faizan <span>✉</span>
+                  Faizan <span className="text-lg"> ✉</span>
                 </div>
               </div>
             </div>
