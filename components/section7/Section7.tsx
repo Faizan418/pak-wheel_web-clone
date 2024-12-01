@@ -222,7 +222,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-stosdre-sixteen.png"
+                src="/images/auto-store-sixteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -287,7 +287,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-ewentyone.png"
+                src="/images/auto-store-twentytwo.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -300,7 +300,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-twentytwo.png"
+                src="/images/auto-store-twentyfour.png"
                 alt="product-image"
                 width={80}
                 height={100}
