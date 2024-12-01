@@ -47,6 +47,7 @@ const Header = () => {
                     New Car
                     <span className="font-light hover:text-gray-950"><MdArrowDropDown /></span>
                     <div className={styles.mega_menu}>
+                      
                     </div>
                   </li>
                   <li className={styles.menu_li}>

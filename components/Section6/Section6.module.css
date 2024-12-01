@@ -89,14 +89,20 @@
     /* border: 1px solid black; */
     color: rgb(1, 1, 167);
     padding-left: 10px;
+    padding-right: 10px;
     /* font-weight: bold; */
+    justify-content: center;
+    display: flex;
 }
 ._card_dec_price{
     /* border: 1px solid black; */
     color: green;
     font-size: 14px;
     padding-left: 10px;
+    padding-right: 10px;
     /* font-weight: bold; */
+    justify-content: center;
+    display: flex;
 }
 ._card_dec_city{
     /* border: 1px solid black; */
@@ -104,8 +110,23 @@
     font-size: 14px;
     padding-left: 10px;
     font-weight: bold;
-}
 
+}
+.radding_div{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    gap: 5px;
+}
+.rating_iconst_div{
+    display: flex;
+    /* border: 1px solid black; */
+    color: rgb(212, 138, 0);
+    align-items: center;
+    font-size: 15px;
+}
 
 
 @media(max-width: 910px){
