@@ -1,8 +1,6 @@
 import styles from './Section7.module.css'
 import Link from "next/link";
 import Image from "next/image";
-import { MdOutlineStarPurple500 } from "react-icons/md";
-import { MdOutlineStarBorderPurple500 } from "react-icons/md";
 
 const Section7 = () => {
   return (
