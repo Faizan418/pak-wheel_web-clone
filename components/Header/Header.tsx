@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import Image from "next/image";
 import { IoMdSearch } from "react-icons/io";
 import { useState } from "react";
+import { MdArrowDropDown } from "react-icons/md";
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -44,26 +45,36 @@ const Header = () => {
                 >
                   <li className={styles.menu_li}>
                     New Car
-                    <span className="font-light hover:text-gray-950">▾</span>{" "}
+                    <span className="font-light hover:text-gray-950"><MdArrowDropDown /></span>
+                    <div className={styles.mega_menu}>
+                    </div>
                   </li>
                   <li className={styles.menu_li}>
                     Used Car
-                    <span className="font-light hover:text-gray-950">▾</span>{" "}
+                    <span className="font-light hover:text-gray-950"><MdArrowDropDown /></span>
+                    <div className={styles.mega_menu}>
+                    </div>
                   </li>
                   <li className={styles.menu_li}>
                     Bikes
-                    <span className="font-light hover:text-gray-950">▾</span>{" "}
+                    <span className="font-light hover:text-gray-950"><MdArrowDropDown /></span>
+                    <div className={styles.mega_menu}>
+                    </div>
                   </li>
                   <li className={styles.menu_li}>
                     Auto Store
-                    <span className="font-light hover:text-gray-950">▾</span>{" "}
+                    <span className="font-light hover:text-gray-950"><MdArrowDropDown /></span>
+                    <div className={styles.mega_menu}>
+                    </div>
                   </li>
                   <li className={styles.menu_li}>Video</li>
                   <li className={styles.menu_li}>Forums</li>
                   <li className={styles.menu_li}>Blog</li>
                   <li className={styles.menu_li}>
                     More
-                    <span className="font-light hover:text-gray-950">▾</span>{" "}
+                    <span className="font-light hover:text-gray-950"><MdArrowDropDown /></span>
+                    <div className={styles.mega_menu}>
+                    </div>
                   </li>
                 </ul>
                 <button
