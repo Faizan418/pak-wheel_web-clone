@@ -5,7 +5,6 @@ import { IoMdSearch } from "react-icons/io";
 import { useState } from "react";
 import { MdArrowDropDown } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
-import { TbMessageCircle } from "react-icons/tb";
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);

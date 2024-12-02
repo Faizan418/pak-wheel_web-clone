@@ -1,12 +1,12 @@
-import styles from './Section7.module.css'
+import styles from './Section10.module.css'
 import Image from 'next/image'
 
-const Section7 = () => {
+const Section10 = () => {
   return (
     <div className={styles._main_containar}>
       <div className={styles._containar}>
         <div className={styles._main_heading_div}>
-          <h1 className={styles._main_heading1}>New Cars by Make</h1>
+          <h1 className={styles._main_heading1}>New Bikes by Make</h1>
 
         </div>
         
@@ -15,33 +15,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Suzuki.png"
-                alt="Suzuki"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Suzuki</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Tyota.png"
-                alt="Toyota"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Toyota</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Honda.png"
+                src="/images/new-bike-by-make/make-Honda.png"
                 alt="Honda"
                 width={80}
                 height={100}
@@ -54,111 +28,59 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Kia.png"
-                alt="KIA"
-                width={65}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>KIA</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Hyundai.png"
-                alt="Hyundai"
+                src="/images/new-bike-by-make/make-Yamaha.png"
+                alt="Yamaha"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Hyundai</h1>
+              <h1 className={styles._card_dec_name}>Yamaha</h1>
             </div>
           </div>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-MG.png"
-                alt="MG"
+                src="/images/new-bike-by-make/make-Suzuki.png"
+                alt="Suzuki"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>MG</h1>
+              <h1 className={styles._card_dec_name}>Suzuki</h1>
             </div>
           </div>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Changan.jpg"
-                alt="Changan"
+                src="/images/new-bike-by-make/make-unique.png"
+                alt="unique"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Changan</h1>
+              <h1 className={styles._card_dec_name}>unique</h1>
             </div>
           </div>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-BYD.png"
-                alt="BYD"
+                src="/images/new-bike-by-make/make-Hi-Speed.png"
+                alt="Hi-Speed"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>BYD</h1>
+              <h1 className={styles._card_dec_name}>Hi-Speed</h1>
             </div>
           </div>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-BMW.png"
-                alt="BMW"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>BMW</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Audi.png"
-                alt="Audi"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Audi</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Proton.png"
-                alt="Proton"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Proton</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-United.png"
+                src="/images/new-bike-by-make/make-United.png"
                 alt="United"
                 width={80}
                 height={100}
@@ -168,266 +90,257 @@ const Section7 = () => {
               <h1 className={styles._card_dec_name}>United</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Porsche.png"
-                alt="Porsche"
+                src="/images/new-bike-by-make/make-Road-Prince.png"
+                alt="Road-Prince"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Porsche</h1>
+              <h1 className={styles._card_dec_name}>Road-Prince</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Mercedes-Benz.png"
-                alt="Mercedes Benz"
+                src="/images/new-bike-by-make/make-BMW.png"
+                alt="BMW"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Mercedes Benz</h1>
+              <h1 className={styles._card_dec_name}>BMW</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Prince.png"
-                alt="Prince"
+                src="/images/new-bike-by-make/make-Benelli.png"
+                alt="Benelli"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Prince</h1>
+              <h1 className={styles._card_dec_name}>Benelli</h1>
             </div>
           </div>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-DFSK.png"
-                alt="DFSK"
+                src="/images/new-bike-by-make/make-Benling.jpg"
+                alt="Benling"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>DFSK</h1>
+              <h1 className={styles._card_dec_name}>Benling</h1>
+            </div>
+          </div>
+
+          <div className={styles._card}>
+            <div className={styles._card_img_box}>
+              <Image
+                src="/images/new-bike-by-make/make-Evee.png"
+                alt="Evee"
+                width={80}
+                height={100}
+              />
+            </div>
+            <div className={styles._card_dec_box}>
+              <h1 className={styles._card_dec_name}>Evee</h1>
             </div>
           </div>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Isuzu.png"
-                alt="Isuzu"
+                src="/images/new-bike-by-make/make-Jolta-Electric.png"
+                alt="Jolta-Electric"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Isuzu</h1>
+              <h1 className={styles._card_dec_name}>Jolta-Electric</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-FAW.png"
-                alt="FAW"
+                src="/images/new-bike-by-make/make-Keeway.png"
+                alt="Keeway"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>FAW</h1>
+              <h1 className={styles._card_dec_name}>Keeway</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Haval.png"
-                alt="Haval"
+                src="/images/new-bike-by-make/make-Kawasaki.png"
+                alt="Kawasaki"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Haval</h1>
+              <h1 className={styles._card_dec_name}>Kawasaki</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-BAIC.png"
-                alt="BAIC"
+                src="/images/new-bike-by-make/make-Super-Power.png"
+                alt="Super-Power"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>BAIC</h1>
+              <h1 className={styles._card_dec_name}>Super-Power</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-ORA.jpg"
-                alt="ORA"
+                src="/images/new-bike-by-make/make-Benling.jpg"
+                alt="Benling"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>ORA</h1>
+              <h1 className={styles._card_dec_name}>Benling</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Peugeot.png"
-                alt="Peugeot"
+                src="/images/new-bike-by-make/make-SuperStar.png"
+                alt="SuperStar"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Peugeot</h1>
+              <h1 className={styles._card_dec_name}>SuperStar</h1>
             </div>
           </div>
+
+          <div className={styles._card}>
+            <div className={styles._card_img_box}>
+              <Image 
+                src="/images/new-bike-by-make/make-Vlektra.jpeg"
+                alt="Vlektra"
+                width={80}
+                height={100}
+              />
+            </div>
+            <div className={styles._card_dec_box}>
+              <h1 className={styles._card_dec_name}>Vlektra</h1>
+            </div>
+          </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-JW-Forland.png"
-                alt="JW Forland"
+                src="/images/new-bike-by-make/make-Hero.png"
+                alt="Hero"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>JW Forland</h1>
+              <h1 className={styles._card_dec_name}>Hero</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Tank.jpeg"
-                alt="Tank"
+                src="/images/new-bike-by-make/make-Crown.png"
+                alt="Crown"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Tank</h1>
+              <h1 className={styles._card_dec_name}>Crown</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Chery.png"
-                alt="Chery"
+                src="/images/new-bike-by-make/make-Metro.png"
+                alt="Metro"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Chery</h1>
+              <h1 className={styles._card_dec_name}>Metro</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-JMC.png"
-                alt="JMC"
+                src="/images/new-bike-by-make/make-lifan.png"
+                alt="lifan"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>JMC</h1>
+              <h1 className={styles._card_dec_name}>lifan</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Daehan.png"
-                alt="Daehan"
+                src="/images/new-bike-by-make/make-Ezbike.png"
+                alt="Ezbike"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Daehan</h1>
+              <h1 className={styles._card_dec_name}>Ezbike</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Deepal.png"
-                alt="Deepal"
+                src="/images/new-bike-by-make/make-ZXMCO.png"
+                alt="ZXMCO"
                 width={80}
                 height={100}
               />
             </div>
             <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Deepal</h1>
+              <h1 className={styles._card_dec_name}>ZXMCO</h1>
             </div>
           </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Tesla.png"
-                alt="Tesla"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Tesla</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-GUGO.jpg"
-                alt="GUGO"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>GUGO</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Seres.png"
-                alt="Seres"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Seres</h1>
-            </div>
-          </div>
-          <div className={styles._card}>
-            <div className={styles._card_img_box}>
-              <Image
-                src="/images/make-Honri.png"
-                alt="Honri"
-                width={80}
-                height={100}
-              />
-            </div>
-            <div className={styles._card_dec_box}>
-              <h1 className={styles._card_dec_name}>Honri</h1>
-            </div>
-          </div>
+
 
         </div>
       </div>
@@ -435,4 +348,4 @@ const Section7 = () => {
   )
 }
 
-export default Section7
+export default Section10
