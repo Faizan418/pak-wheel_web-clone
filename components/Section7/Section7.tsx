@@ -1,5 +1,5 @@
-import styles from './Section7.module.css'
-import Image from 'next/image'
+import styles from "./Section7.module.css";
+import Image from "next/image";
 
 const Section7 = () => {
   return (
@@ -7,11 +7,9 @@ const Section7 = () => {
       <div className={styles._containar}>
         <div className={styles._main_heading_div}>
           <h1 className={styles._main_heading1}>New Cars by Make</h1>
-
         </div>
-        
-        <div className={styles._grid}>
 
+        <div className={styles._grid}>
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -428,11 +426,10 @@ const Section7 = () => {
               <h1 className={styles._card_dec_name}>Honri</h1>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section7
+export default Section7;

@@ -1,4 +1,4 @@
-import styles from './Section9.module.css'
+import styles from "./Section9.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -7,7 +7,9 @@ const Section7 = () => {
     <div className={styles._main_containar}>
       <div className={styles._containar}>
         <div className={styles._main_heading_div}>
-          <h1 className={styles._main_heading1}>Auto Store Car Parts & Accessories</h1>
+          <h1 className={styles._main_heading1}>
+            Auto Store Car Parts & Accessories
+          </h1>
           <h3 className={styles._main_heading2}>
             <Link className="hover:text-sky-600" href={"#"}>
               View All New Cars
@@ -23,7 +25,6 @@ const Section7 = () => {
         </ul>
 
         <div className={styles._grid}>
-
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -310,11 +311,10 @@ const Section7 = () => {
               <h1 className={styles._card_dec_name}>Hose Pipe</h1>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section7
+export default Section7;

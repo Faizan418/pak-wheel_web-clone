@@ -24,8 +24,6 @@ const Section6 = () => {
         </ul>
 
         <div className={styles._grid}>
-
-
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -489,8 +487,6 @@ const Section6 = () => {
               </p>
             </div>
           </div>
-
-          
         </div>
       </div>
     </div>

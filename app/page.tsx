@@ -11,9 +11,6 @@ import Section10 from "@/components/Section10/Section10";
 import Section11 from "@/components/Section11/Section11";
 import Footer from "@/components/Footer/Footer";
 
-
-
-
 export default function Home() {
   return (
     <div>

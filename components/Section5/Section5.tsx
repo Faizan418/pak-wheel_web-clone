@@ -16,8 +16,6 @@ const Section5 = () => {
         </div>
 
         <div className={styles._grid}>
-
-
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -33,7 +31,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -49,7 +47,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -65,7 +63,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -81,7 +79,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Islamabad</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -97,7 +95,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -113,7 +111,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -129,7 +127,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -145,7 +143,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Islamabad</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -163,7 +161,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -179,7 +177,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -195,7 +193,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Rewalpindi</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -211,7 +209,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Faisalabad</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -227,7 +225,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -243,7 +241,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -259,7 +257,7 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Sialkot</p>
             </div>
           </div>
-          
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -275,8 +273,6 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>

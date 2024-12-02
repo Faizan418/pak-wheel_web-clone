@@ -1,6 +1,4 @@
 ._containar {
-  /* background-color: #091b44;
-   */
    background-color: #013f88;
 }
 .main_containar {
@@ -20,7 +18,6 @@
   font-size: small;
   font-weight: bold;
   padding: 6px 0px;
-  /* border: 1px solid white; */
 }
 .o,
 .t {
@@ -61,7 +58,6 @@
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  /* transition: ease-in 0.3s ease-out 0.3s; */
   transition: step-end 0.5s ease-in-out
 }
 
@@ -79,11 +75,8 @@
   z-index: 1000;
 }
 .menu_column {
-  /* width: 100%; */
   border: 1px solid black;
 }
-
-
 .main_contant {
   height: 74%;
   padding: 20px 50px;

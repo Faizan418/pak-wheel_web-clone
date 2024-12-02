@@ -1,5 +1,5 @@
-import styles from './Section10.module.css'
-import Image from 'next/image'
+import styles from "./Section10.module.css";
+import Image from "next/image";
 
 const Section10 = () => {
   return (
@@ -7,9 +7,8 @@ const Section10 = () => {
       <div className={styles._containar}>
         <div className={styles._main_heading_div}>
           <h1 className={styles._main_heading1}>New Bikes by Make</h1>
-
         </div>
-        
+
         <div className={styles._grid}>
 
           <div className={styles._card}>
@@ -25,6 +24,7 @@ const Section10 = () => {
               <h1 className={styles._card_dec_name}>Honda</h1>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -38,6 +38,7 @@ const Section10 = () => {
               <h1 className={styles._card_dec_name}>Yamaha</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -51,6 +52,7 @@ const Section10 = () => {
               <h1 className={styles._card_dec_name}>Suzuki</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -64,6 +66,7 @@ const Section10 = () => {
               <h1 className={styles._card_dec_name}>unique</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -77,6 +80,7 @@ const Section10 = () => {
               <h1 className={styles._card_dec_name}>Hi-Speed</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -132,6 +136,7 @@ const Section10 = () => {
               <h1 className={styles._card_dec_name}>Benelli</h1>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -245,7 +250,7 @@ const Section10 = () => {
 
           <div className={styles._card}>
             <div className={styles._card_img_box}>
-              <Image 
+              <Image
                 src="/images/new-bike-by-make/make-Vlektra.jpeg"
                 alt="Vlektra"
                 width={80}
@@ -341,11 +346,10 @@ const Section10 = () => {
             </div>
           </div>
 
-
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section10
+export default Section10;

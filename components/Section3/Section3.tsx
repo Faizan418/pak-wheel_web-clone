@@ -9,7 +9,6 @@ const Section3 = () => {
         <h1 className={styles.main_heading}>PakWheels Offerings</h1>
 
         <div className={styles._main_box}>
-
           <Link href={"#"}>
             <div className={styles.main_div}>
               <div className={styles.img_div}>
@@ -135,7 +134,7 @@ const Section3 = () => {
                 <Image
                   src={"/images/pakwheel-offers/img_eight.png"}
                   alt="one"
-                  width={150}pakwheel-offers/
+                  width={150}
                   height={150}
                 />
               </div>
@@ -145,7 +144,6 @@ const Section3 = () => {
               </div>
             </div>
           </Link>
-
         </div>
       </div>
     </div>

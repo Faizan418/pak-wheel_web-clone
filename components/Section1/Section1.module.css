@@ -9,7 +9,6 @@
 ._upper_div {
   margin-bottom: 40px;
 }
-
 .fieldset_div {
   border: 1px solid rgb(196, 196, 196);
   padding: 30px;
@@ -158,16 +157,9 @@
     display: none;
   }
 }
-
 ._lower_div {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
   cursor: pointer;
 }
-/* .one:hover {
-  transform: scale(1.005);
-}
-.two:hover {
-  transform: scale(1.005);
-} */
