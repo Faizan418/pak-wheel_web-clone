@@ -16,10 +16,12 @@ const Section5 = () => {
         </div>
 
         <div className={styles._grid}>
+
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-one.png"
+                src="/images/future-use-car/future-use-one.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -31,10 +33,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-two.webp"
+                src="/images/future-use-car/future-use-two.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -46,10 +49,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-three.png"
+                src="/images/future-use-car/future-use-three.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -61,10 +65,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-four.webp"
+                src="/images/future-use-car/future-use-four.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -76,10 +81,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Islamabad</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-five.webp"
+                src="/images/future-use-car/future-use-five.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -91,10 +97,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-six.webp"
+                src="/images/future-use-car/future-use-six.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -106,10 +113,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-seven.webp"
+                src="/images/future-use-car/future-use-seven.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -121,10 +129,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-eight.webp"
+                src="/images/future-use-car/future-use-eight.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -136,10 +145,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Islamabad</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-nine.webp"
+                src="/images/future-use-car/future-use-nine.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -153,10 +163,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-ten.webp"
+                src="/images/future-use-car/future-use-ten.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -168,10 +179,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-eleven.jpg"
+                src="/images/future-use-car/future-use-eleven.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -183,10 +195,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Rewalpindi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-twelive.webp"
+                src="/images/future-use-car/future-use-twelive.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -198,10 +211,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Faisalabad</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-thirteen.webp"
+                src="/images/future-use-car/future-use-thirteen.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -213,10 +227,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-fourteen.webp"
+                src="/images/future-use-car/future-use-fourteen.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -228,10 +243,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-fifteen.webp"
+                src="/images/future-use-car/future-use-fifteen.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -243,10 +259,11 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Sialkot</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/future-use-sixteen.webp"
+                src="/images/future-use-car/future-use-sixteen.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -258,6 +275,8 @@ const Section5 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>

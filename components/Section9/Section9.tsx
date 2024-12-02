@@ -27,7 +27,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-one.png"
+                src="/images/auto-store-car-parts/auto-store-one.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -40,7 +40,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-two.png"
+                src="/images/auto-store-car-parts/auto-store-two.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -53,7 +53,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-three.png"
+                src="/images/auto-store-car-parts/auto-store-three.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -66,7 +66,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-four.png"
+                src="/images/auto-store-car-parts/auto-store-four.png"
                 alt="product-image"
                 width={65}
                 height={100}
@@ -79,7 +79,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-five.png"
+                src="/images/auto-store-car-parts/auto-store-five.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -92,7 +92,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-six.png"
+                src="/images/auto-store-car-parts/auto-store-six.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -105,7 +105,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-seven.png"
+                src="/images/auto-store-car-parts/auto-store-seven.png"
                 alt="product-image"
                 width={45}
                 height={100}
@@ -118,7 +118,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-eight.png"
+                src="/images/auto-store-car-parts/auto-store-eight.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -131,7 +131,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-nine.png"
+                src="/images/auto-store-car-parts/auto-store-nine.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -144,7 +144,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-ten.png"
+                src="/images/auto-store-car-parts/auto-store-ten.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -157,7 +157,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-eleven.png"
+                src="/images/auto-store-car-parts/auto-store-eleven.png"
                 alt="product-image"
                 width={65}
                 height={100}
@@ -170,7 +170,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-twelive.png"
+                src="/images/auto-store-car-parts/auto-store-twelive.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -183,7 +183,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-thirteen.png"
+                src="/images/auto-store-car-parts/auto-store-thirteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -196,7 +196,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-fourteen.png"
+                src="/images/auto-store-car-parts/auto-store-fourteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -209,7 +209,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-fifteen.png"
+                src="/images/auto-store-car-parts/auto-store-fifteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -222,7 +222,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-sixteen.png"
+                src="/images/auto-store-car-parts/auto-store-sixteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -235,7 +235,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-seventeen.png"
+                src="/images/auto-store-car-parts/auto-store-seventeen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -248,7 +248,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-eighteen.png"
+                src="/images/auto-store-car-parts/auto-store-eighteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -261,7 +261,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-nineteen.png"
+                src="/images/auto-store-car-parts/auto-store-nineteen.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -274,7 +274,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-twenty.png"
+                src="/images/auto-store-car-parts/auto-store-twenty.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -287,7 +287,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-twentytwo.png"
+                src="/images/auto-store-car-parts/auto-store-twentytwo.png"
                 alt="product-image"
                 width={80}
                 height={100}
@@ -300,7 +300,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/auto-store-twentyfour.png"
+                src="/images/auto-store-car-parts/auto-store-twentyfour.png"
                 alt="product-image"
                 width={80}
                 height={100}

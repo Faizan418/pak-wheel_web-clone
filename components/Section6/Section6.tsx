@@ -24,10 +24,12 @@ const Section6 = () => {
         </ul>
 
         <div className={styles._grid}>
+
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-one.jpg"
+                src="/images/future-new-car/futured-one.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -52,6 +54,7 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -80,6 +83,7 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
@@ -108,10 +112,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-four.jpg"
+                src="/images/future-new-car/futured-four.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -136,10 +141,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-five.png"
+                src="/images/future-new-car/futured-five.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -164,10 +170,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-six.jpg"
+                src="/images/future-new-car/futured-six.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -192,10 +199,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-seven.png"
+                src="/images/future-new-car/futured-seven.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -220,10 +228,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-eight.jpg"
+                src="/images/future-new-car/futured-eight.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -248,10 +257,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-nine.png"
+                src="/images/future-new-car/futured-nine.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -276,10 +286,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-ten.jpeg"
+                src="/images/future-new-car/futured-ten.jpeg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -304,10 +315,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-eleven.png"
+                src="/images/future-new-car/futured-eleven.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -332,10 +344,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-twelive.png"
+                src="/images/future-new-car/futured-twelive.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -360,10 +373,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-thirteen.png"
+                src="/images/future-new-car/futured-thirteen.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -388,10 +402,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-fourteen.jpg"
+                src="/images/future-new-car/futured-fourteen.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -416,10 +431,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-fifteen.jpg"
+                src="/images/future-new-car/futured-fifteen.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -444,10 +460,11 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/futured-sixteen.png"
+                src="/images/future-new-car/futured-sixteen.png"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -472,6 +489,8 @@ const Section6 = () => {
               </p>
             </div>
           </div>
+
+          
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Suzuki.png"
+                src="/images/new-car-by-make/make-Suzuki.png"
                 alt="Suzuki"
                 width={80}
                 height={100}
@@ -28,7 +28,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Tyota.png"
+                src="/images/new-car-by-make/make-Tyota.png"
                 alt="Toyota"
                 width={80}
                 height={100}
@@ -41,7 +41,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Honda.png"
+                src="/images/new-car-by-make/make-Honda.png"
                 alt="Honda"
                 width={80}
                 height={100}
@@ -54,7 +54,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Kia.png"
+                src="/images/new-car-by-make/make-Kia.png"
                 alt="KIA"
                 width={65}
                 height={100}
@@ -67,7 +67,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Hyundai.png"
+                src="/images/new-car-by-make/make-Hyundai.png"
                 alt="Hyundai"
                 width={80}
                 height={100}
@@ -80,7 +80,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-MG.png"
+                src="/images/new-car-by-make/make-MG.png"
                 alt="MG"
                 width={80}
                 height={100}
@@ -93,7 +93,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Changan.jpg"
+                src="/images/new-car-by-make/make-Changan.jpg"
                 alt="Changan"
                 width={80}
                 height={100}
@@ -106,7 +106,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-BYD.png"
+                src="/images/new-car-by-make/make-BYD.png"
                 alt="BYD"
                 width={80}
                 height={100}
@@ -119,7 +119,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-BMW.png"
+                src="/images/new-car-by-make/make-BMW.png"
                 alt="BMW"
                 width={80}
                 height={100}
@@ -132,7 +132,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Audi.png"
+                src="/images/new-car-by-make/make-Audi.png"
                 alt="Audi"
                 width={80}
                 height={100}
@@ -145,7 +145,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Proton.png"
+                src="/images/new-car-by-make/make-Proton.png"
                 alt="Proton"
                 width={80}
                 height={100}
@@ -158,7 +158,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-United.png"
+                src="/images/new-car-by-make/make-United.png"
                 alt="United"
                 width={80}
                 height={100}
@@ -171,7 +171,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Porsche.png"
+                src="/images/new-car-by-make/make-Porsche.png"
                 alt="Porsche"
                 width={80}
                 height={100}
@@ -184,7 +184,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Mercedes-Benz.png"
+                src="/images/new-car-by-make/make-Mercedes-Benz.png"
                 alt="Mercedes Benz"
                 width={80}
                 height={100}
@@ -197,7 +197,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Prince.png"
+                src="/images/new-car-by-make/make-Prince.png"
                 alt="Prince"
                 width={80}
                 height={100}
@@ -210,7 +210,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-DFSK.png"
+                src="/images/new-car-by-make/make-DFSK.png"
                 alt="DFSK"
                 width={80}
                 height={100}
@@ -223,7 +223,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Isuzu.png"
+                src="/images/new-car-by-make/make-Isuzu.png"
                 alt="Isuzu"
                 width={80}
                 height={100}
@@ -236,7 +236,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-FAW.png"
+                src="/images/new-car-by-make/make-FAW.png"
                 alt="FAW"
                 width={80}
                 height={100}
@@ -249,7 +249,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Haval.png"
+                src="/images/new-car-by-make/make-Haval.png"
                 alt="Haval"
                 width={80}
                 height={100}
@@ -262,7 +262,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-BAIC.png"
+                src="/images/new-car-by-make/make-BAIC.png"
                 alt="BAIC"
                 width={80}
                 height={100}
@@ -275,7 +275,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-ORA.jpg"
+                src="/images/new-car-by-make/make-ORA.jpg"
                 alt="ORA"
                 width={80}
                 height={100}
@@ -288,7 +288,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Peugeot.png"
+                src="/images/new-car-by-make/make-Peugeot.png"
                 alt="Peugeot"
                 width={80}
                 height={100}
@@ -301,7 +301,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-JW-Forland.png"
+                src="/images/new-car-by-make/make-JW-Forland.png"
                 alt="JW Forland"
                 width={80}
                 height={100}
@@ -314,7 +314,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Tank.jpeg"
+                src="/images/new-car-by-make/make-Tank.jpeg"
                 alt="Tank"
                 width={80}
                 height={100}
@@ -327,7 +327,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Chery.png"
+                src="/images/new-car-by-make/make-Chery.png"
                 alt="Chery"
                 width={80}
                 height={100}
@@ -340,7 +340,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-JMC.png"
+                src="/images/new-car-by-make/make-JMC.png"
                 alt="JMC"
                 width={80}
                 height={100}
@@ -353,7 +353,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Daehan.png"
+                src="/images/new-car-by-make/make-Daehan.png"
                 alt="Daehan"
                 width={80}
                 height={100}
@@ -366,7 +366,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Deepal.png"
+                src="/images/new-car-by-make/make-Deepal.png"
                 alt="Deepal"
                 width={80}
                 height={100}
@@ -379,7 +379,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Tesla.png"
+                src="/images/new-car-by-make/make-Tesla.png"
                 alt="Tesla"
                 width={80}
                 height={100}
@@ -392,7 +392,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-GUGO.jpg"
+                src="/images/new-car-by-make/make-GUGO.jpg"
                 alt="GUGO"
                 width={80}
                 height={100}
@@ -405,7 +405,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Seres.png"
+                src="/images/new-car-by-make/make-Seres.png"
                 alt="Seres"
                 width={80}
                 height={100}
@@ -418,7 +418,7 @@ const Section7 = () => {
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/make-Honri.png"
+                src="/images/new-car-by-make/make-Honri.png"
                 alt="Honri"
                 width={80}
                 height={100}

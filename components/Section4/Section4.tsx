@@ -16,10 +16,12 @@ const Section4 = () => {
         </div>
 
         <div className={styles._grid}>
+
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-one.webp"
+                src="/images/managed-by-pakwheel/managed-one.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -31,10 +33,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-two.webp"
+                src="/images/managed-by-pakwheel/managed-two.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -46,10 +49,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Gujranwala</p>
             </div>
           </div>
+
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-three.webp"
+                src="/images/managed-by-pakwheel/managed-three.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -61,10 +65,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-four.webp"
+                src="/images/managed-by-pakwheel/managed-four.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -76,10 +81,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Islamabad</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-five.webp"
+                src="/images/managed-by-pakwheel/managed-five.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -91,10 +97,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-six.webp"
+                src="/images/managed-by-pakwheel/managed-six.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -106,10 +113,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-seven.webp"
+                src="/images/managed-by-pakwheel/managed-seven.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -121,10 +129,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Islamabad</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-eight.webp"
+                src="/images/managed-by-pakwheel/managed-eight.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -136,10 +145,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-nine.webp"
+                src="/images/managed-by-pakwheel/managed-nine.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -151,10 +161,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Karachi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-ten.jpg"
+                src="/images/managed-by-pakwheel/managed-ten.jpg"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -166,10 +177,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Rawalpindi</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-eleven.webp"
+                src="/images/managed-by-pakwheel/managed-eleven.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -181,10 +193,11 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Faisalabad</p>
             </div>
           </div>
+          
           <div className={styles._card}>
             <div className={styles._card_img_box}>
               <Image
-                src="/images/managed-twelive.webp"
+                src="/images/managed-by-pakwheel/managed-twelive.webp"
                 alt="toyota-fortuner"
                 width={250}
                 height={100}
@@ -196,6 +209,8 @@ const Section4 = () => {
               <p className={styles._card_dec_city}>Lahore</p>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>

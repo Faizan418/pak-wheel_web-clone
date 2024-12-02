@@ -24,7 +24,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-one.jpg"
+              src="/images/popular-new-bike/new-bike-one.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -52,7 +52,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-two.jpg"
+              src="/images/popular-new-bike/new-bike-two.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -80,7 +80,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-three.jpg"
+              src="/images/popular-new-bike/new-bike-three.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -108,7 +108,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-four.jpg"
+              src="/images/popular-new-bike/new-bike-four.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -136,7 +136,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-five.png"
+              src="/images/popular-new-bike/new-bike-five.png"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -164,7 +164,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-six.jpg"
+              src="/images/popular-new-bike/new-bike-six.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -192,7 +192,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-seven.jpg"
+              src="/images/popular-new-bike/new-bike-seven.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -221,7 +221,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-eight.jpg"
+              src="/images/popular-new-bike/new-bike-eight.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -249,7 +249,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-nine.jpg"
+              src="/images/popular-new-bike/new-bike-nine.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -277,7 +277,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-ten.jpg"
+              src="/images/popular-new-bike/new-bike-ten.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -305,7 +305,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-eleven.jpg"
+              src="/images/popular-new-bike/new-bike-eleven.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -334,7 +334,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-twelive.jpg"
+              src="/images/popular-new-bike/new-bike-twelive.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -363,7 +363,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-thirteen.jpg"
+              src="/images/popular-new-bike/new-bike-thirteen.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -392,7 +392,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-fourteen.jpg"
+              src="/images/popular-new-bike/new-bike-fourteen.jpg"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -421,7 +421,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-fifteen.png"
+              src="/images/popular-new-bike/new-bike-fifteen.png"
               alt="toyota-fortuner"
               width={250}
               height={100}
@@ -450,7 +450,7 @@ const Section8 = () => {
         <div className={styles._card}>
           <div className={styles._card_img_box}>
             <Image
-              src="/images/new-bike-sixteen.png"
+              src="/images/popular-new-bike/new-bike-sixteen.png"
               alt="toyota-fortuner"
               width={250}
               height={100}

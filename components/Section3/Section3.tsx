@@ -9,11 +9,12 @@ const Section3 = () => {
         <h1 className={styles.main_heading}>PakWheels Offerings</h1>
 
         <div className={styles._main_box}>
+
           <Link href={"#"}>
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_one.png"}
+                  src={"/images/pakwheel-offers/img_one.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -30,7 +31,7 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_two.png"}
+                  src={"/images/pakwheel-offers/img_two.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -47,7 +48,7 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_three.png"}
+                  src={"/images/pakwheel-offers/img_three.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -64,7 +65,7 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_four.png"}
+                  src={"/images/pakwheel-offers/img_four.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -81,7 +82,7 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_five.png"}
+                  src={"/images/pakwheel-offers/img_five.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -98,7 +99,7 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_six.png"}
+                  src={"/images/pakwheel-offers/img_six.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -115,7 +116,7 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_seven.png"}
+                  src={"/images/pakwheel-offers/img_seven.png"}
                   alt="one"
                   width={150}
                   height={150}
@@ -132,9 +133,9 @@ const Section3 = () => {
             <div className={styles.main_div}>
               <div className={styles.img_div}>
                 <Image
-                  src={"/images/img_eight.png"}
+                  src={"/images/pakwheel-offers/img_eight.png"}
                   alt="one"
-                  width={150}
+                  width={150}pakwheel-offers/
                   height={150}
                 />
               </div>
@@ -144,6 +145,7 @@ const Section3 = () => {
               </div>
             </div>
           </Link>
+
         </div>
       </div>
     </div>
